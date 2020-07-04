@@ -8,8 +8,8 @@
 from scrapy.exporters import CsvItemExporter
 
 
-class TennisPipeline:
-    
+class WriteItemPipeline(object):
+
     def __init__(self):
         self.filename = 'tennis.csv'
 

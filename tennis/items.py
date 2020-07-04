@@ -10,7 +10,7 @@ class TennisItem(scrapy.Item):
     # define the fields for your item here like:
     # name = scrapy.Field()
     player_name = scrapy.Field()
-    rank = scrapy.Field()
+    player_rank = scrapy.Field()
     first_serve = scrapy.Field()
     ace = scrapy.Field()
     double_fault = scrapy.Field()
